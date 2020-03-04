@@ -15,6 +15,15 @@ module NavigationHelpers
 
     when /^the (RottenPotatoes )?home\s?page$/ then '/movies'
 
+    when /^the edit page for "([^"]+)"$/
+      edit_movie_path(Movie.find_by_title($1).id)
+
+    when /^the details page for "([^"]+)"$/
+      movie_path(Movie.find_by_title($1).id)
+
+    when /^the Similar Movies page for "([^"]+)"$/
+      same_director_path(Movie.find_by_title($1).id)
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

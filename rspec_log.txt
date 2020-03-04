@@ -1,0 +1,16 @@
+DEPRECATION WARNING: Sprockets method `register_engine` is deprecated.
+Please register a mime type using `register_mime_type` then
+use `register_compressor` or `register_transformer`.
+https://github.com/rails/sprockets/blob/master/guides/extending_sprockets.md#supporting-all-versions-of-sprockets-in-processors
+ (called from block (2 levels) in <class:Railtie> at /Users/flora/.rvm/gems/ruby-2.4.6/gems/sass-rails-5.0.5/lib/sass/rails/railtie.rb:57)
+DEPRECATION WARNING: Sprockets method `register_engine` is deprecated.
+Please register a mime type using `register_mime_type` then
+use `register_compressor` or `register_transformer`.
+https://github.com/rails/sprockets/blob/master/guides/extending_sprockets.md#supporting-all-versions-of-sprockets-in-processors
+ (called from block (2 levels) in <class:Railtie> at /Users/flora/.rvm/gems/ruby-2.4.6/gems/sass-rails-5.0.5/lib/sass/rails/railtie.rb:58)
+............
+
+Finished in 0.28337 seconds (files took 2.78 seconds to load)
+12 examples, 0 failures
+
+Coverage report generated for RSpec to /Users/flora/Documents/CS/606/hw/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 46 / 54 LOC (85.19%) covered.
